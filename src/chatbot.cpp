@@ -50,6 +50,7 @@ ChatBot::ChatBot(const ChatBot& source){
     *_image = *source._image;
     _chatLogic = source._chatLogic;
     _rootNode = source._rootNode;
+    _currentNode = source._currentNode;
 }
 
 ChatBot& ChatBot::operator= (const ChatBot& source){
@@ -61,6 +62,7 @@ ChatBot& ChatBot::operator= (const ChatBot& source){
     *_image = *source._image;
     _chatLogic = source._chatLogic;
     _rootNode = source._rootNode;
+    _currentNode = source._currentNode;
     return *this;
 }
 
@@ -68,11 +70,16 @@ ChatBot::ChatBot(ChatBot&& source){
     std::cout << "ChatBot Move Constructor" << std::endl;
 
     _image = source._image;
-    source._image = nullptr;
     _chatLogic = source._chatLogic;
     _rootNode = source._rootNode;
-    _chatLogic = nullptr;
-    _rootNode = nullptr;
+    _currentNode = source._currentNode;
+
+    source._image = nullptr;
+    source._chatLogic = nullptr;
+    source._rootNode = nullptr;
+    source._currentNode = nullptr;
+
+    _chatLogic->SetChatbotHandle(this);
 }
 
 ChatBot& ChatBot::operator= (ChatBot&& source){
@@ -81,11 +88,16 @@ ChatBot& ChatBot::operator= (ChatBot&& source){
         return *this;
     }
     _image = source._image;
-    source._image = nullptr;
     _chatLogic = source._chatLogic;
     _rootNode = source._rootNode;
-    _chatLogic = nullptr;
-    _rootNode = nullptr;
+    _currentNode = source._currentNode;
+    
+    source._image = nullptr;
+    source._chatLogic = nullptr;
+    source._rootNode = nullptr;
+    source._currentNode = nullptr;
+    
+    _chatLogic->SetChatbotHandle(this);
     return *this;
 }
 

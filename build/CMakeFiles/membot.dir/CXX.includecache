@@ -6,45 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/wantingzhang/MySandBox/cpp/Memory_Management_Chatbot/CppND-Memory-Management-Chatbot/src/chatbot.cpp
-iostream
--
-random
--
-algorithm
--
-ctime
--
-chatlogic.h
-/Users/wantingzhang/MySandBox/cpp/Memory_Management_Chatbot/CppND-Memory-Management-Chatbot/src/chatlogic.h
-graphnode.h
-/Users/wantingzhang/MySandBox/cpp/Memory_Management_Chatbot/CppND-Memory-Management-Chatbot/src/graphnode.h
-graphedge.h
-/Users/wantingzhang/MySandBox/cpp/Memory_Management_Chatbot/CppND-Memory-Management-Chatbot/src/graphedge.h
-chatbot.h
-/Users/wantingzhang/MySandBox/cpp/Memory_Management_Chatbot/CppND-Memory-Management-Chatbot/src/chatbot.h
-
 /Users/wantingzhang/MySandBox/cpp/Memory_Management_Chatbot/CppND-Memory-Management-Chatbot/src/chatbot.h
 wx/bitmap.h
 -
 string
 -
-
-/Users/wantingzhang/MySandBox/cpp/Memory_Management_Chatbot/CppND-Memory-Management-Chatbot/src/chatgui.cpp
-wx/filename.h
--
-wx/colour.h
--
-wx/image.h
--
-string
--
-chatbot.h
-/Users/wantingzhang/MySandBox/cpp/Memory_Management_Chatbot/CppND-Memory-Management-Chatbot/src/chatbot.h
-chatlogic.h
-/Users/wantingzhang/MySandBox/cpp/Memory_Management_Chatbot/CppND-Memory-Management-Chatbot/src/chatlogic.h
-chatgui.h
-/Users/wantingzhang/MySandBox/cpp/Memory_Management_Chatbot/CppND-Memory-Management-Chatbot/src/chatgui.h
 
 /Users/wantingzhang/MySandBox/cpp/Memory_Management_Chatbot/CppND-Memory-Management-Chatbot/src/chatgui.h
 wx/wx.h
@@ -82,23 +48,11 @@ string
 chatgui.h
 /Users/wantingzhang/MySandBox/cpp/Memory_Management_Chatbot/CppND-Memory-Management-Chatbot/src/chatgui.h
 
-/Users/wantingzhang/MySandBox/cpp/Memory_Management_Chatbot/CppND-Memory-Management-Chatbot/src/graphedge.cpp
-graphnode.h
-/Users/wantingzhang/MySandBox/cpp/Memory_Management_Chatbot/CppND-Memory-Management-Chatbot/src/graphnode.h
-graphedge.h
-/Users/wantingzhang/MySandBox/cpp/Memory_Management_Chatbot/CppND-Memory-Management-Chatbot/src/graphedge.h
-
 /Users/wantingzhang/MySandBox/cpp/Memory_Management_Chatbot/CppND-Memory-Management-Chatbot/src/graphedge.h
 vector
 -
 string
 -
-
-/Users/wantingzhang/MySandBox/cpp/Memory_Management_Chatbot/CppND-Memory-Management-Chatbot/src/graphnode.cpp
-graphedge.h
-/Users/wantingzhang/MySandBox/cpp/Memory_Management_Chatbot/CppND-Memory-Management-Chatbot/src/graphedge.h
-graphnode.h
-/Users/wantingzhang/MySandBox/cpp/Memory_Management_Chatbot/CppND-Memory-Management-Chatbot/src/graphnode.h
 
 /Users/wantingzhang/MySandBox/cpp/Memory_Management_Chatbot/CppND-Memory-Management-Chatbot/src/graphnode.h
 vector
